@@ -1,0 +1,296 @@
+body {
+    margin-top: 0px;
+    padding: 0;
+    background: #FEFDEE;
+}
+
+header {
+    width: 100%;
+    margin-top: 0px;
+    height: 24px;
+    background: #FEFDEE;
+    margin-bottom: 100px;
+}
+
+#slogan {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 350;
+}
+
+#logo {
+    height: 120px;
+}
+
+#sloganimage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 350;
+    color:black;
+}
+#home1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 350;
+    color:black;
+    margin-left: 400px;
+    margin-right: 60px;
+    text-decoration: none;
+  
+}
+#home2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 350;
+    color:black;
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+#image-banner {
+    background-image: url('../img/menudog.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+#hotdog{
+    color: #AC292E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 52px;
+    font-weight: 350;
+    margin-left: 720px;
+    margin-top: 30px;
+
+}
+
+#item1{
+    outline: dotted;
+    outline-color: #AC292E;
+    width:600px;
+    height:150px;
+    margin-left: 140px;
+    margin-top:80px;
+    border-radius: 40px;
+    float: left;
+}
+#F1{
+    color: #AC292E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 350;
+    text-align: left;
+    position:relative;
+    margin-left: 20px;
+    margin-top: 6px;
+    float: left;
+}
+#item2{
+    outline: dotted;
+    outline-color: #AC292E;
+    width:600px;
+    height:150px;
+    margin-left: 200px;
+    margin-top:80px;
+    border-radius: 40px;
+    float: left;
+}
+#F2{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 350;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 500px;
+    float: left;
+}
+
+
+#item3{
+    outline: dotted;
+    outline-color: #AC292E;
+    width:600px;
+    height:150px;
+    margin-left: 560px;
+    margin-top:80px;
+    border-radius: 40px;
+    float: left;
+    margin-bottom: 100px;
+}
+
+#item1:hover #img1{
+    background-image: url('../img/frankfurter.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    height: 120px;
+    width: 220px;
+    margin-left: 340px;
+    margin-top: 20px;
+
+}
+#item1:hover #img2{
+    background-image: url('../img/bockwurst.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    height: 120px;
+    width: 220px;
+    margin-left: 340px;
+    margin-top: 20px;
+
+}
+#item1:hover #img3{
+    background-image: url('../img/calabrese.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+#item1:hover #F1{
+    width:340px;
+    font-size: 30px;
+}
+
+#item1:hover #F2{
+    width:340px;
+
+}
+
+#item1:hover #img4{
+    background-image: url('../img/bratwurst.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 12px;
+}
+
+#item1:hover #img5{
+    background-image: url('../img/smoked.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 8px;
+}
+
+#item2:hover #F1{
+    width:340px;
+    font-size: 30px;
+}
+
+#item2:hover #F2{
+    width:340px;
+
+}
+
+#item3:hover #F1{
+    width:340px;
+    font-size: 30px;
+}
+
+#item3:hover #F2{
+    width:340px;
+
+}
+
+#item2:hover #img6{
+    background-image: url('../img/garlic.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 8px;
+}
+
+#item2:hover #img7{
+    background-image: url('../img/kielbasa.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 8px;
+}
+
+#item2:hover #img8{
+    background-image: url('../img/hotlink.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 8px;
+}
+
+#item2:hover #img9{
+    background-image: url('../img/lemon.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 8px;
+}
+
+#item2:hover #img10{
+    background-image: url('../img/mango.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 8px;
+}
+#item3:hover #img11{
+    background-image: url('../img/wienie.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    width: 240px;
+    margin-left: 360px;
+    margin-top: 8px;
+}
+
+
+
