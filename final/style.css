@@ -28,17 +28,17 @@
 
   .mainbox{
     position: relative;
-    width: 500%;
-    height: 500%;
+    width: 500px;
+    height: 500px;
   }
   .mainbox:after{
     position: absolute;
     content: '';
-    width: 40%;
-    height: 40%;
+    width: 40px;
+    height: 40px;
     background: url('assets/img/arrow.png') no-repeat;
     background-size: 32px;
-    right: -40%;
+    right: -40px;
     top: 40%;
     transform: translateY(-50%);
   }
@@ -49,7 +49,7 @@
     top: -10%;
     font-weight: bold;
     border-radius: 50%;
-    border: 10% solid #fff;
+    border: 10px solid #fff;
     overflow: hidden;
     transition: all ease 5s;
   }
